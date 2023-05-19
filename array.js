@@ -42,6 +42,9 @@ console.log("row ended.");
 console.log("indexing complete");
 
 
+
+/******************************** */
+/******************************** */
 var arr = [10, 25, 7, 100, 20]; // initialise arr
 // iterate array from start to end
 arr.forEach(x => console.log(x));
