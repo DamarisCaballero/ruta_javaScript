@@ -8,3 +8,10 @@ for (let i = 1; i <= 5; i++) {
     console.log(i);
     i++; // The i variable is updated in the loop body
   }
+
+
+let number = Math.floor(Math.random() * 10);
+
+while (number !== 10) {
+  console.log(++number);
+}
