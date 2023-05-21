@@ -10,7 +10,7 @@ for (let i = 1; i <= 5; i++) {
   }
 
 
-let number = Math.floor(Math.random() * 10);
+let number1 = Math.floor(Math.random() * 10);
 
 while (number !== 10) {
   console.log(++number);

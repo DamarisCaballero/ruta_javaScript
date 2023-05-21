@@ -10,16 +10,16 @@ var raw_arr = [
     {name: "Charlottesville", population: 48019, temp: 8.0, currency: 'USD'}
     ],
     [
-      null, 
-      {name: "Seattle", population: 724745, temp: 4.0, currency: 'USD'}, 
-      null
+        null, 
+    {name: "Seattle", population: 724745, temp: 4.0, currency: 'USD'}, 
+        null
     ],
   ]; // initialise the two-dimensional array of objects
-  
+
   var ans = 0; // initialise ans to 0 (Sum of population)
-  
+
   // Iterate raw_arr in the following loop
-  for(var i = 0; i < raw_arr.length; i++){ 
+    for(var i = 0; i < raw_arr.length; i++){ 
     // Iterate the array at each index i of raw_arr
     for(var j = 0; j < raw_arr[i].length; j++){
       // For each element at row i and column j
@@ -28,8 +28,8 @@ var raw_arr = [
         if(raw_arr[i][j]['temp'] <= 10.0){ // Check if less or equal to 10
             ans += raw_arr[i][j]['population']; // if satisfied, add to ans
         }
-      }
     }
-  }
-  
-  console.log('final ans:', ans);
+    }
+}
+
+console.log('final ans:', ans);
