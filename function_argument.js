@@ -57,3 +57,7 @@ var newFunc = foo (); // invoke foo and assign returned value to newFunc var
 
 /*************************************/
 /*************************************/
+console.log(Math.min(4.5, 5)); // 4.5
+console.log(Math.min(19, 9));  // 9
+console.log(Math.min(1, 1));   // 1
+console.log(Math.random());    // A random number between 0 and 1
