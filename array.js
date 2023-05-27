@@ -61,7 +61,16 @@ topics.push('Queues');
 
 /******************************** */
 /******************************** */
+var topics = [];
+console.log('[' + topics + '] has length = ' + 
+            topics.length);
 
+topics.push('Arrays');
+topics.push('Stacks');
+topics.push('Queues');
+
+console.log('[' + topics + '] has length = ' + 
+            topics.length);
 
 
 
