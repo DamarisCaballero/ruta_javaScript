@@ -53,7 +53,10 @@ console.log("indexing complete");
 
 /******************************** */
 /******************************** */
-
+var topics = [];
+topics.push('Arrays');
+topics.push('Stacks');
+topics.push('Queues');
 
 
 /******************************** */
