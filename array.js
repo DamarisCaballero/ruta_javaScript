@@ -76,3 +76,13 @@ console.log('[' + topics + '] has length = ' +
 
 /******************************** */
 /******************************** */
+
+var topics = [];
+
+topics.push('Arrays');
+topics.push('Stacks');
+topics.push('Queues');
+
+for (var i = 0; i < topics.length; i++) {
+    console.log(topics[i]);
+}
