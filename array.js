@@ -86,3 +86,10 @@ topics.push('Queues');
 for (var i = 0; i < topics.length; i++) {
     console.log(topics[i]);
 }
+/******************************** */
+/******************************** */
+
+var tutorials = ['Arrays', 'Stacks', 'Queues'];
+console.log('Before Splice: ' + tutorials);
+tutorials.splice(1,1);
+console.log('After Splice: ' + tutorials);
